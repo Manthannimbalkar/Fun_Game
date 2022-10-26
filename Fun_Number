@@ -1,0 +1,9 @@
+import random
+ComputerNumber = random.randint(-1000,1000)
+PlayerNumber = int(input('Enter the random number of your choice'))
+if(ComputerNumber > PlayerNumber):
+    print("Yes,I Won")
+else:
+    print("Congratulations,You Won")
+print('I have selected: ' , ComputerNumber)
+print('You have selecedt: ' , PlayerNumber)
